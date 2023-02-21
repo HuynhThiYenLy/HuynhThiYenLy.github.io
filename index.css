@@ -1,0 +1,187 @@
+.headerr{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.menu ul {
+    background: green;
+    list-style-type: none;
+}
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.menu a:hover {
+    color: yellow;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+  }
+.menu li {
+    position: relative;
+  }
+.menu li:hover .sub-menu {
+    display: block;
+  }
+.sub-menu li {
+    margin-left: 0px;
+  }
+.sub-menu > ul {
+    display: none;
+}
+.container > nav{
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:50%;
+}
+.large  {
+  font-size: x-large;
+  text-indent: 1cm;
+}
+.large a{
+  font-variant: small-caps;
+  text-decoration: none;
+  color: grey;
+}
+.large a:hover {
+  color: rgb(0, 255, 8);
+}
+.text {
+  color: whitesmoke;
+  position: absolute;
+  font-variant: small-caps;
+  font-family: Arial;
+  font-size: larger;
+}
+.san-pham .gia{
+  color: red;
+  font-weight:bold;
+  font-size:x-larger;
+}
+.column{
+  width: 25%;
+  float: left;
+}
+.san-pham{
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px gray;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.san-pham .ten{ 
+  font-size: larger;
+  font-variant: small-caps;
+  color: blue;
+}
+.san-pham img{
+  max-width:80%;
+}
+.san-pham .gia del{
+  color:gray;
+}
+header{
+  background-image: url('img/poster.jpg');
+  background-size:100% 100%;
+}
+.texted{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.cau1{
+  font-variant: small-caps;
+  font-size: large;
+  color: white;
+}
+.cau2{
+  font-size: xx-large;
+  color: white;
+}
+.cau3{
+  font-variant: small-caps;
+  font-size: large;
+  color: white;
+}
+.muangay a{
+  font-size: x-large;
+  color: yellow;
+}
+.muangay a:hover{
+  font-size: xx-large;
+  color: red;
+}
+.xemthem a {
+  color: red;
+  font-size: x-large;
+  text-decoration: none;
+}
+.search {
+  position: absolute;
+  top: 25px;
+  right: 480px;
+  display: flex;
+}
+.nutTimKiem {
+  width: 40px;
+  height: 30px;
+  border: 2px solid green;
+  background: yellowgreen;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  font-size: 12px;
+}
+.thanhTim {
+  width: 500px;
+  height: 30px;
+  border: 2px solid green;
+  border-right: none;
+  padding: 13.5px;
+  border-radius: 5px 0 0 5px;
+  color: black;
+}
+.nav-right{
+  position: absolute;
+  right: -10px;
+  color: yellow;
+}
+.form-group{
+  position: relative;
+  right: 70px;
+}
+footer{
+  background-color: rgb(10, 149, 10);
+  font-size: large;
+}
+hr{
+  border-color: yellow;
+}
+.footer{
+  float: left;
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  color: white;
+}
+.dong{
+  width: 90%;
+  margin:10px auto ;
+}
+.cot1{
+  width: 50%;
+  float: left;
+}
+.cot2{
+  width: 50%;
+  float: left;
+}
